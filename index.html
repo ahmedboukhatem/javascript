@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Form one</title>
+</head>
+<body>
+    <center>
+        <br><br>
+        <br>
+        <br><br>
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <div class="main_div">
+    <form id="form" onsubmit="return validateform()">
+        <div class="inside_div">
+            <label for="">Etat Civile</label>
+            <select id="etat_civile">
+                <option value="Mr"> Mr </option>  
+                <option value="Mme"> Mme </option>
+                <option value="Mlle"> Mlle </option>
+            </select>
+        </div>
+        <div class="inside_div">
+            <label for="">Nom</label>
+            <input type="text" id="nom">
+        </div>
+        <div class="inside_div">
+            <label for="">Prénom</label>
+            <input type="text" id="prenom">
+        </div>
+        <div class="inside_div">
+            <label for="">Nom Complet</label>
+            <input type="text" id="nom_complet">
+        </div>
+        <div class="inside_div1">   
+            <label for="">niveau en javascript</label>
+            <input type="range" id="niveau" >
+            <p id="rangevalue">50</p>
+            
+    
+        </div>
+        <div class="inside_div">
+            <label for="">mot de passe</label>
+            <input type="password" id="pwd">
+        </div>
+        <div class="inside_div">
+            <label for="">mot de passe confirmation</label>
+            <input type="password" id="pwd2">
+        </div>
+        <input type="button" value="Réintialiser" id="b1">
+        <input type="submit" value="Envoyer" id="b2">
+</form>
+</div>
+</center>
+</body>
+</html>
+
+<script type="text/javascript" src="main.js"></script>

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+
+    display: block ;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.main_div{
+    display: block;
+ border: double black 2px;
+ width: 500px; 
+ height: 250px; 
+ background-color: rgba(155, 205, 238, 0.2);
+ border-radius: 15px;
+ padding: 25px;
+}
+label {
+    color: #e78300;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    float: left;
+    }
+.inside_div{
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.inside_div1{
+    width: 500px;
+    margin-bottom: 10px;
+}
